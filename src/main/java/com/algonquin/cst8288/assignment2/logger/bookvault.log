@@ -1,0 +1,77 @@
+[2024-06-12T06:58:42.2571118] [INFO] Event created successfully with ID: 35
+[2024-06-12T06:58:42.2696194] [INFO] Event created successfully with ID: 36
+[2024-06-12T06:58:42.27616] [INFO] Event 35 retrieved successfully.
+[2024-06-12T06:58:42.27742] [INFO] Event 36 retrieved successfully.
+[2024-06-12T06:58:42.2796708] [INFO] Event 35 retrieved successfully.
+[2024-06-12T07:13:10.7797054] [INFO] Event created successfully with ID: 37
+[2024-06-12T07:13:10.7917067] [INFO] Event created successfully with ID: 38
+[2024-06-12T07:13:10.797961] [INFO] Event 37 retrieved successfully.
+[2024-06-12T07:13:10.799485] [INFO] Event 38 retrieved successfully.
+[2024-06-12T07:13:10.8015173] [INFO] Event 37 updated successfully.
+[2024-06-12T07:13:10.8030371] [INFO] Event 37 retrieved successfully.
+[2024-06-12T07:13:10.8050476] [INFO] Event ID 38 deleted successfully!
+[2024-06-12T08:56:40.3803344] [INFO] Event created successfully with ID: 41
+[2024-06-12T08:56:40.3918781] [INFO] Event created successfully with ID: 42
+[2024-06-12T08:56:40.3990102] [INFO] Event 41 retrieved successfully.
+[2024-06-12T08:56:40.4010096] [INFO] Event 42 retrieved successfully.
+[2024-06-12T08:56:40.403231] [INFO] Event 41 updated successfully.
+[2024-06-12T08:56:40.4044714] [INFO] Event 41 retrieved successfully.
+[2024-06-12T08:56:40.4059267] [INFO] Event ID 42 deleted successfully!
+[2024-06-12T08:57:43.9371446] [INFO] Event created successfully with ID: 43
+[2024-06-12T08:57:43.9504804] [INFO] Event created successfully with ID: 44
+[2024-06-12T08:57:43.9569346] [INFO] Event 43 retrieved successfully.
+[2024-06-12T08:57:43.9580289] [INFO] Event 44 retrieved successfully.
+[2024-06-12T08:57:43.9614461] [INFO] Event 43 updated successfully.
+[2024-06-12T08:57:43.9624424] [INFO] Event 43 retrieved successfully.
+[2024-06-12T08:57:43.9644425] [INFO] Event ID 44 deleted successfully!
+[2024-06-12T09:07:33.2076787] [INFO] Success to connect Database.
+[2024-06-12T09:07:33.3224998] [INFO] Event created successfully with ID: 45
+[2024-06-12T09:07:33.3272314] [INFO] Event created successfully with ID: 46
+[2024-06-12T09:07:33.3307907] [INFO] Event 45 retrieved successfully.
+[2024-06-12T09:07:33.3327874] [INFO] Event 46 retrieved successfully.
+[2024-06-12T09:07:33.3349487] [INFO] Event 45 updated successfully.
+[2024-06-12T09:07:33.3369751] [INFO] Event 45 retrieved successfully.
+[2024-06-12T09:07:33.3379826] [WARN] Failed to delete event with ID: 2
+[2024-06-12T09:07:33.3400185] [INFO] Database connection closed successfully.
+[2024-06-12T09:30:19.3578326] [INFO] Success to connect Database.
+[2024-06-12T09:30:19.4758824] [INFO] Event created successfully with ID: 47
+[2024-06-12T09:30:55.0838466] [INFO] Success to connect Database.
+[2024-06-12T09:30:55.1965919] [INFO] Event created successfully with ID: 49
+[2024-06-12T09:30:55.2017428] [INFO] Event created successfully with ID: 50
+[2024-06-12T09:30:55.2048932] [INFO] Event 49 retrieved successfully.
+[2024-06-12T09:30:55.2076137] [INFO] Event 50 retrieved successfully.
+[2024-06-12T09:30:55.2109541] [INFO] Event 49 updated successfully.
+[2024-06-12T09:30:55.2119533] [INFO] Event 49 retrieved successfully.
+[2024-06-12T09:30:55.2129546] [WARN] Failed to delete event with ID: 2
+[2024-06-12T09:30:55.2149524] [INFO] Database connection closed successfully.
+[2024-06-12T09:37:57.5919253] [INFO] Success to connect Database.
+[2024-06-12T09:37:57.6473788] [INFO] All events deleted successfully!
+[2024-06-12T09:37:57.7088787] [INFO] Event created successfully with ID: 51
+[2024-06-12T09:37:57.7134735] [INFO] Event created successfully with ID: 52
+[2024-06-12T09:37:57.7178553] [INFO] Event 51 retrieved successfully.
+[2024-06-12T09:37:57.719173] [INFO] Event 52 retrieved successfully.
+[2024-06-12T09:37:57.721195] [INFO] Event 51 updated successfully.
+[2024-06-12T09:37:57.7231963] [INFO] Event 51 retrieved successfully.
+[2024-06-12T09:37:57.7231963] [WARN] Failed to delete event with ID: 2
+[2024-06-12T09:37:57.7279528] [INFO] Database connection closed successfully.
+[2024-06-12T10:00:31.9819671] [INFO] Success to connect Database.
+[2024-06-12T10:33:41.1708469] [INFO] Success to connect Database.
+[2024-06-12T10:33:41.2341221] [INFO] All events deleted successfully!
+[2024-06-12T10:33:41.2959844] [INFO] Event created successfully with ID: 53
+[2024-06-12T10:33:41.3019912] [INFO] Event created successfully with ID: 54
+[2024-06-12T10:33:41.3063364] [INFO] Event 53 retrieved successfully.
+[2024-06-12T10:33:41.308331] [INFO] Event 54 retrieved successfully.
+[2024-06-12T10:33:41.3103266] [INFO] Event 53 updated successfully.
+[2024-06-12T10:33:41.3118307] [INFO] Event 53 retrieved successfully.
+[2024-06-12T10:33:41.3118307] [WARN] Failed to delete event with ID: 2
+[2024-06-12T10:33:41.3159748] [INFO] Database connection closed successfully.
+[2024-06-12T10:37:14.2576604] [INFO] Success to connect Database.
+[2024-06-12T10:37:14.3120183] [INFO] All events deleted successfully!
+[2024-06-12T10:37:14.3716243] [INFO] Event created successfully with ID: 55
+[2024-06-12T10:37:14.3766227] [INFO] Event created successfully with ID: 56
+[2024-06-12T10:37:14.3809793] [INFO] Event 55 retrieved successfully.
+[2024-06-12T10:37:14.3819746] [INFO] Event 56 retrieved successfully.
+[2024-06-12T10:37:14.3841768] [INFO] Event 55 updated successfully.
+[2024-06-12T10:37:14.3867243] [INFO] Event 55 retrieved successfully.
+[2024-06-12T10:37:14.3867243] [WARN] Failed to delete event with ID: 2
+[2024-06-12T10:37:14.3901525] [INFO] Database connection closed successfully.
