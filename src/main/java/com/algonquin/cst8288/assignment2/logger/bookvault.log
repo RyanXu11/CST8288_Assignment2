@@ -75,3 +75,13 @@
 [2024-06-12T10:37:14.3867243] [INFO] Event 55 retrieved successfully.
 [2024-06-12T10:37:14.3867243] [WARN] Failed to delete event with ID: 2
 [2024-06-12T10:37:14.3901525] [INFO] Database connection closed successfully.
+[2024-06-12T11:10:11.8499297] [INFO] Success to connect Database.
+[2024-06-12T11:10:11.9152021] [INFO] All events deleted successfully!
+[2024-06-12T11:10:11.980394] [INFO] Event created successfully with ID: 57
+[2024-06-12T11:10:11.9850806] [INFO] Event created successfully with ID: 58
+[2024-06-12T11:10:11.9914646] [INFO] Event 57 retrieved successfully.
+[2024-06-12T11:10:11.995756] [INFO] Event 58 retrieved successfully.
+[2024-06-12T11:10:11.9977585] [INFO] Event 57 updated successfully.
+[2024-06-12T11:10:11.9987524] [INFO] Event 57 retrieved successfully.
+[2024-06-12T11:10:11.9997543] [WARN] Failed to delete event with ID: 2
+[2024-06-12T11:10:12.0027534] [INFO] Database connection closed successfully.
