@@ -17,7 +17,7 @@ public class Client {
 	
     public static void main(String[] args) throws SQLException {
         int eventId;
-      
+        
         // Connect to the database
         DBConnection.getInstance();
         // Delete all exist records in database for testing

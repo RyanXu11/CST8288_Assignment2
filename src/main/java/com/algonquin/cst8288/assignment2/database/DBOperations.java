@@ -145,7 +145,7 @@ public class DBOperations {
         }
     }
     
-    public static void purgeEvents() throws SQLException {
+    public static void purgeEvents() {
         String logMessage;
         try {
             Connection conn = DBConnection.getInstance().getConnection();
