@@ -7,8 +7,6 @@ import com.algonquin.cst8288.assignment2.event.EventType;
 import com.algonquin.cst8288.assignment2.library.AcademicLibrary;
 import com.algonquin.cst8288.assignment2.library.Library;
 import com.algonquin.cst8288.assignment2.library.PublicLibrary;
-import java.io.File;
-import java.sql.Connection;
 import java.sql.SQLException;
 
 /**
