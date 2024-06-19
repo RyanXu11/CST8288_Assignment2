@@ -21,7 +21,8 @@ public class Client {
         // Connect to the database
         DBConnection.getInstance();
         // Delete all exist records in database for testing
-        DBOperations.purgeEvents();
+        DBOperations operations = new DBOperations();
+        operations.purgeEvents();
 
         // Create events using the factory method: AcademicLibrary
         Library academicLibrary = new AcademicLibrary();
@@ -34,7 +35,7 @@ public class Client {
         workshopEvent.calculateAdmissionFee();
 
         // Save the event to database
-        DBOperations.createEvent(workshopEvent);
+        operations.createEvent(workshopEvent);
 
         // Create an instance of PublicLibrary
         Library publicLibrary = new PublicLibrary();
@@ -47,11 +48,11 @@ public class Client {
         kidsStoryTimeEvent.calculateAdmissionFee();
 
         // Save the event to database
-        DBOperations.createEvent(kidsStoryTimeEvent);
+        operations.createEvent(kidsStoryTimeEvent);
 
         // Retrieve and display the created events, printEvent() called in retrieveEvent
-        DBOperations.retrieveEvent(workshopEvent.getEventId()); // Workshop event
-        DBOperations.retrieveEvent(kidsStoryTimeEvent.getEventId()); // Kids Story Time event
+        operations.retrieveEvent(workshopEvent.getEventId()); // Workshop event
+        operations.retrieveEvent(kidsStoryTimeEvent.getEventId()); // Kids Story Time event
 
 
         // Update the Workshop event
@@ -61,15 +62,15 @@ public class Client {
         workshopEvent.calculateAdmissionFee();
         
         // UpdateEvent in database by the eventID
-        DBOperations.updateEvent(workshopEvent);
+        operations.updateEvent(workshopEvent);
         System.out.println("\nAfter update:");
         eventId = workshopEvent.getEventId();
-        DBOperations.retrieveEvent(eventId); // Workshop event
+        operations.retrieveEvent(eventId); // Workshop event
 
 
         // Delete the Kids Story Time event
 //        DBOperations.deleteEvent(kidsStoryTimeEvent.getEventId()); // This will success
-        DBOperations.deleteEvent(2);   // This will fail
+        operations.deleteEvent(2);   // This will fail
         // Close the database connection
         DBConnection.closeConnection();  // Close the database connection
     }
