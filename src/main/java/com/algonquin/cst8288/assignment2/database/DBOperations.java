@@ -25,7 +25,7 @@ public class DBOperations {
      * 
      * @param event 
      */
-    public static void createEvent(Event event) {
+    public void createEvent(Event event) {
         int eventId = -1; //default value if insertion fails
         String logMessage;
         try {
@@ -59,7 +59,7 @@ public class DBOperations {
         }
     }
 
-    public static void retrieveEvent(int event_id) {
+    public void retrieveEvent(int event_id) {
         String logMessage;
         try {
             Connection conn = DBConnection.getInstance().getConnection();
@@ -91,7 +91,7 @@ public class DBOperations {
     } 
 
 
-    public static void updateEvent(Event event){
+    public void updateEvent(Event event){
         String logMessage;
         try {
             Connection conn = DBConnection.getInstance().getConnection();
@@ -120,7 +120,7 @@ public class DBOperations {
         }
     }
 
-    public static void deleteEvent(int event_id) throws SQLException{
+    public void deleteEvent(int event_id) throws SQLException{
         String logMessage;
         try {
             Connection conn = DBConnection.getInstance().getConnection();
@@ -145,7 +145,7 @@ public class DBOperations {
         }
     }
     
-    public static void purgeEvents() {
+    public void purgeEvents() {
         String logMessage;
         try {
             Connection conn = DBConnection.getInstance().getConnection();

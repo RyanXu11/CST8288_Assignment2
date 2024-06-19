@@ -57,7 +57,7 @@ public class Client {
 
         // Update the Workshop event
         workshopEvent.setEventName("Advanced Java Workshop");
-        workshopEvent.setEventDescription("CST8288: Object Oriented Programming With Pattern");
+        workshopEvent.setEventDescription("CST8299: Object Oriented Programming With Pattern");
         workshopEvent.setEventActivities("Factory Method and JDBC");
         workshopEvent.calculateAdmissionFee();
         
